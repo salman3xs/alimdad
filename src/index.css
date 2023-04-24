@@ -788,7 +788,8 @@ a:focus {
   position: relative;
   width: 100%;
   margin: 45px 0;
-  background: rgba(0, 0, 0, 0.5);
+  /* background: rgba(0, 0, 0, 0.5); */
+  background-image: "./assets/img/donate.jpg";
 }
 
 .donate .donate-content {
@@ -997,6 +998,7 @@ a:focus {
   display: flex;
   align-items: center;
   background: rgba(0, 0, 0, 0.5);
+  background-image: url("/src/assets/img/facts.jpg");
 }
 
 .facts .facts-item {
@@ -1212,6 +1214,7 @@ a:focus {
   width: 100%;
   margin: 45px 0;
   background: rgba(0, 0, 0, 0.5);
+  background-image: url("/src/assets/img/volunteer.jpg");
 }
 
 .volunteer .volunteer-content {

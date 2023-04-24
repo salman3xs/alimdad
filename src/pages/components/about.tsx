@@ -1,5 +1,7 @@
 import React, { FC } from "react";
 import img from "../../assets/img/about.jpg";
+import { Parallax } from "react-scroll-parallax";
+
 const About: FC = (): JSX.Element => {
   return (
     <div>
@@ -7,11 +9,16 @@ const About: FC = (): JSX.Element => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">
-              <div
+              <Parallax translateY={[-10, 30]}>
+                <div className="about-img">
+                  <img src={img} alt="" />
+                </div>
+              </Parallax>
+              {/* <div
                 className="about-img"
                 data-parallax="scroll"
                 data-image-src={img}
-              ></div>
+              ></div> */}
             </div>
             <div className="col-lg-6">
               <div className="section-header">

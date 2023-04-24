@@ -11,10 +11,11 @@
   "dependencies": {
     "@flaticon/flaticon-uicons": "^2.0.1",
     "bootstrap": "^5.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-owl-carousel": "^2.3.3",
     "react-router-dom": "^6.8.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-scroll-parallax": "^3.4.2"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",

@@ -3,11 +3,14 @@ import "/lib/flaticon/font/flaticon.css";
 import "bootstrap/dist/css/bootstrap.css";
 import "/lib/animate/animate.css";
 import MainRoutes from "./Routes/main_route";
+import { ParallaxProvider } from "react-scroll-parallax";
 
 function App() {
   return (
     <div className="App">
-      <MainRoutes />
+      <ParallaxProvider>
+        <MainRoutes />
+      </ParallaxProvider>
     </div>
   );
 }

@@ -1,18 +1,18 @@
 import React, { FC } from "react";
 import img1 from "../../assets/img/contact.jpg";
 
-const Contact : FC = (): JSX.Element =>{
-    return(
-        <div className="contact">
-            <div className="container">
-                <div className="section-header text-center">
-                    <p>Get In Touch</p>
-                    <h2>Contact for any query</h2>
-                </div>
-                <div className="contact-img">
-                    <img src={img1} alt="Image"/>
-                </div>
-                <div className="contact-form">
+const Contact: FC = (): JSX.Element => {
+  return (
+    <div className="contact">
+      <div className="container">
+        <div className="section-header text-center">
+          <p>Get In Touch</p>
+          <h2>Contact for any query</h2>
+        </div>
+        <div className="contact-img">
+          <img src={img1} alt="Image" />
+        </div>
+        {/* <div className="contact-form">
                         <div id="success"></div>
                         <form name="sentMessage" id="contactForm" no-validate="novalidate">
                             <div className="control-group">
@@ -35,9 +35,9 @@ const Contact : FC = (): JSX.Element =>{
                                 <button className="btn btn-custom" type="submit" id="sendMessageButton">Send Message</button>
                             </div>
                         </form>
-                    </div>
-            </div>
-        </div>
-    )
-}
+                    </div> */}
+      </div>
+    </div>
+  );
+};
 export default Contact;
